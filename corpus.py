@@ -264,6 +264,6 @@ def run(args):
         Corpus.split_train_test(c, testing_rate, STORE_FOLDER)
 
 if __name__ == '__main__':
-    run(parser.parse_args(['process', '-n', '150', 'MixEHR_Seed_Tutorial/data/', 'MixEHR_Seed_Tutorial/store/']))
+    run(parser.parse_args(['process', '-n', '150', 'mixehr-seed-tut/data/', 'mixehr-seed-tut/store/']))
     # run(parser.parse_args(['split', 'store/', 'store/']))
 
